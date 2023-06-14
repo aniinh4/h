@@ -1,0 +1,86 @@
+.planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+    background-color: #F0FBEF;
+  }
+  
+  .plano1 {
+    text-align: center;
+    width: 35%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background: #9CC398;
+  }
+  
+  .plano2 {
+    text-align: center;
+    width: 35%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background: #9CC398;
+  }
+  
+  .preço {
+    margin-top: 20px;
+    background-color: #617C7B;
+    border-radius: 15px;
+    width: 139px; /* Defina a largura desejada */
+    height: 50px;
+  }
+  .menu {
+    width: 90%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b134b;
+    text-align: right;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+    text-align: right;
+}
+
+.menu ul li {
+    width: 100px;
+    float: right;
+}
+
+.menu a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff;
+    color: #9CC398;
+    text-align: right;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+.menu a:hover {
+    background-color: #2b1346;
+    color: #ffffff;
+}
+
+.menu ul ul li {
+    float: none;
+}

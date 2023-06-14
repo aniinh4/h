@@ -1,0 +1,17 @@
+body {
+    background-color: #F0FBEF;
+   align-items: center;
+}
+.card-login {
+    width: 60%; 
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background:#BBE4B7;
+    border-radius:20px;
+    box-shadow: 0px 10px 40px #00000056;
+    position: absolute;
+
+   }

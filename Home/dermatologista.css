@@ -1,0 +1,13 @@
+.dermaa {
+    display: flex;
+    align-items: center;
+}
+
+.dermaa img {
+    order: 1;
+    margin-right: 20px;
+}
+
+.dermaa p {
+    flex: 1;
+}

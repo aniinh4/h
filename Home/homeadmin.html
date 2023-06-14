@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+<body>
+    <section> 
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="Logo.png" class="logo"></a>
+            <ul>
+                <div class="conten">
+                    <div class="textBo">
+                    <a href="#">Bem Vindo Admin</a>
+                    </div>
+                </div>
+                <li><a href="#">Home</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href="senhasecadastro.html">Senhas e cadastros</a></li>
+                <li><a href="duvidas.html">Dúvidas dos pacientes</a></li>
+                <li><a href="medicos.html">Especialistas</a></li>
+
+                <li><a href="homepage.html">Deslogar</a></li>
+                
+    
+            </ul>
+        </header>
+        <div class="content">
+          <div class="textBox" >
+            <h2>It's not just a hospital<br>It's a<span>means saving lives</span></h2>
+            <p>“Quer cuidar da minha vida, faça um curso de medicina”</p>
+            <a href="consultas.html">Consulte Aqui</a>
+</div>
+            <div class="ImgBox">
+                <img src="rheumatology-animate.svg" class="left-login-image" alt="medicine animate">
+            </div>
+        </div>
+        <ul class="thumb">
+           <li><img src="Paciente.png" onclick="imgSlider('rheumatology-animate.svg')"></li> </a>
+           <li><a href="loginmedico.html"><img src="Admin.png" onclick="imgSlider('medical-prescription-animate.svg')"></li> </a>
+           <li><a href="login.html"><img src="Médico.png" onclick="imgSlider('team-work-animate.svg')"></li></a>
+           
+           
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="Facebook.png"></a></li>
+            <li><a href="#"><img src="Instagram.png"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.left-login-image').src = anything;
+        }
+    </script>
+</body>
+</html>

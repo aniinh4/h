@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="est.css">
+    <title>Login</title>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">=</a>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça Login<br>E consulte seus médicos</h1>
+            <img src="medicine-animate.svg" class="left-login-image" alt="medicine animação">
+
+        </div>
+            <div class="right-login">
+              <div class="card-login">
+                <h1>Cadastro</h1>
+             <div class="textfield">
+                  <label for="usuario">Nome Completo</label>
+                  <input type="text" name="nome_completo" placeholder="Nome completo:" class="botoes" id="nome_completo">
+            </div>
+            <div class="textfield">
+                <label for="senha">Criar senha</label>
+                <input type="password" name="senha" placeholder="Criar senha:" class="botoes" id="senha"> 
+            </div>
+            <div class="textfield">
+              <label for="senha">Confirmar senha</label>
+              <input type="password" name="confirmar_senha" placeholder="Confirmar senha:" class="botoes" id="confirmar_senha">
+          </div>
+          <div class="textfield">
+            <label for="senha">E-mail</label>
+            <input type="email" name="email" placeholder="E-mail:" class="botoes" id="email">
+        </div>
+        <div class="textfield">
+          <label for="senha">CPF</label>
+          <input type="text" name="cpf" placeholder="CPF:" class="botoes" id="cpf">
+      </div>
+      <a href="planos.html">
+        <div class="Medicos"> <p>Cadastro</p> </div>
+        
+       
+          <script>
+    
+            function Cadastro() 
+              var nome = document.getElementById('nome').value;;
+              var senhaValue = document.getElementById('senha').value;;
+              var confirmarSenhaValue = document.getElementById('confirmar senha').value;;
+              var emailValue = document.getElementById('email').value;;
+              var cpfValue = document.getElementById('cpf').value;;
+      
+              if (nome == "" || senhaValue == "" || confirmarSenhaValue == "" || emailValue == "" || cpfValue == "" || telefoneValue == "") {
+                alert("Por favor, preencha todos os campos.");
+                return false;
+              }
+              if (senhaValue != confirmarSenhaValue) {
+                alert("As senhas não correspondem.");
+                return false;
+              } else {
+                    alert('Sucesso');
+                    location.href = "homeusuario.html";
+              }
+            
+          </script>
+        </body>
+        </div>
+        
+    </div>
+ </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        
+        
+       
+       
+        
+
+    
+    

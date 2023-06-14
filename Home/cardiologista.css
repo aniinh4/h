@@ -1,0 +1,13 @@
+.cardiologistaa {
+    display: flex;
+    align-items: center;
+}
+
+.cardiologistaa img {
+    order: 1;
+    margin-right: 20px;
+}
+
+.cardiologistaa p {
+    flex: 1;
+}

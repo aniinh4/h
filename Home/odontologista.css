@@ -1,0 +1,13 @@
+.dentistaa {
+    display: flex;
+    align-items: center;
+}
+
+.dentistaa img {
+    order: 1;
+    margin-right: 20px;
+}
+
+.dentistaa p {
+    flex: 1;
+}

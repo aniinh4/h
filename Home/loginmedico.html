@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="est.css">
+    <title>Login</title>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">=</a>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça Login<br>E consulte seus pacientes</h1>
+            <img src="doctor-animate.svg" class="left-login-image" alt="doctor animação">
+
+        </div>
+            <div class="right-login">
+              <div class="card-login">
+                <h1>LOGIN MÉDICO</h1>
+             <div class="textfield">
+                  <label for="usuario">Usúario</label>
+                  <input type="text" placeholder="Login" id="login">
+            </div>
+            <div class="textfield">
+                <label for="senha">Senha</label>
+                <input type="password" placeholder="Senha" id="senha">
+            
+               
+            </div>
+         <button class="btn-login" onclick="logar(); return false">Login</button>
+         <li><a href="cadastro.html"><h4>Cadastre-se</h4></li>
+         <script>
+            function logar (){
+        
+                var login = document.getElementById('login').value;
+                var senha = document.getElementById('senha').value;
+        
+                if(login == "médico@gmail.com" && senha == "1234"){
+                    alert('Sucesso');
+                    location.href = "homemedico.html";
+                } else {
+                    alert('Usúario ou senha incorretos');
+                }
+            }
+        </script>
+        </div>
+        
+    </div>
+ </div>
+</body>
+</html>
